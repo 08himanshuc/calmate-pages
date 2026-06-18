@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms and Conditions - CalMate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0b0b0f;
+            --card-bg: rgba(255, 255, 255, 0.03);
+            --card-border: rgba(255, 255, 255, 0.08);
+            --text-primary: #f3f4f6;
+            --text-secondary: #9ca3af;
+            --accent-color: #3b82f6;
+            --accent-gradient: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            --radius: 16px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: var(--radius);
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid var(--card-border);
+            padding-bottom: 30px;
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            font-weight: 400;
+        }
+
+        .last-updated {
+            font-size: 0.85rem;
+            color: var(--accent-color);
+            margin-top: 10px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            letter-spacing: -0.3px;
+        }
+
+        h2::before {
+            content: '';
+            display: inline-block;
+            width: 6px;
+            height: 20px;
+            background: var(--accent-gradient);
+            border-radius: 3px;
+            margin-right: 12px;
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+            font-size: 1rem;
+        }
+
+        ul {
+            margin-bottom: 20px;
+            padding-left: 24px;
+            color: var(--text-secondary);
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background: rgba(239, 68, 68, 0.05);
+            border-left: 3px solid #ef4444;
+            padding: 15px 20px;
+            border-radius: 0 var(--radius) var(--radius) 0;
+            margin: 20px 0;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+            color: var(--text-primary);
+            font-weight: 500;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: #60a5fa;
+            text-decoration: underline;
+        }
+
+        .footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid var(--card-border);
+            text-align: center;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 10px;
+            }
+            .container {
+                padding: 24px;
+            }
+            .logo {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <div class="logo">CalMate</div>
+        <div class="subtitle">Terms and Conditions</div>
+        <div class="last-updated">Last Updated: June 18, 2026</div>
+    </div>
+
+    <p>Welcome to CalMate! These Terms and Conditions ("Terms") govern your access to and use of the CalMate mobile application (the "App") and any related services provided by us (collectively, the "Services").</p>
+    
+    <p>By downloading, installing, accessing, or using the App, you agree to be bound by these Terms. If you do not agree to these Terms, do not use the Services.</p>
+
+    <div class="highlight-box">
+        <p><strong>MEDICAL DISCLAIMER:</strong> CalMate is an AI-powered nutrition tracker and recipe planner designed to provide general information and logging tools. CalMate is NOT a medical device, nor does it provide professional medical advice, diagnosis, or treatment. Always consult a qualified physician or registered dietitian before starting any new diet, fitness program, or nutritional plan.</p>
+    </div>
+
+    <h2>1. User Accounts & Registration</h2>
+    <p>To use certain features of the Services, you may be required to register for an account using email verification, Google, or Apple login options. You agree to:</p>
+    <ul>
+        <li>Provide accurate and complete information during registration.</li>
+        <li>Maintain the security and confidentiality of your credentials.</li>
+        <li>Promptly notify us of any unauthorized use or security breaches concerning your account.</li>
+    </ul>
+
+    <h2>2. Subscriptions and Payments</h2>
+    <p>We offer premium subscription tiers that grant access to advanced features, such as unrestricted AI recipe generation and multi-day meal planners.</p>
+    <ul>
+        <li><strong>In-App Purchases:</strong> Billing is handled securely through the Apple App Store, Google Play Store, and synchronized via RevenueCat.</li>
+        <li><strong>Subscription Auto-Renewal:</strong> Subscriptions automatically renew at the end of the billing period unless canceled at least 24 hours before the renewal date.</li>
+        <li><strong>Cancellations:</strong> You can manage or cancel your subscription at any time directly through your Apple ID or Google Play Store account settings.</li>
+        <li><strong>Refunds:</strong> All purchases are final. Refund requests are subject to the terms and refund policies of Apple and Google.</li>
+    </ul>
+
+    <h2>3. Artificial Intelligence and Generated Content</h2>
+    <p>CalMate uses advanced artificial intelligence (such as Google Gemini API) to suggest recipes, generate meal plans, and analyze meal photographs. You acknowledge and agree that:</p>
+    <ul>
+        <li>AI-generated content may occasionally contain inaccuracies, incomplete data, or errors regarding nutritional values, ingredients, or allergens.</li>
+        <li>You are solely responsible for verifying the accuracy of ingredient details and allergen warnings before preparing or consuming any food item suggested by the App.</li>
+    </ul>
+
+    <h2>4. Intellectual Property & License</h2>
+    <p>We grant you a personal, limited, non-exclusive, non-transferable, and revocable license to download and use the App on your mobile device for personal, non-commercial purposes only.</p>
+    <p>All trademarks, logos, designs, graphics, and codebase related to the App are our exclusive property or the property of our licensors. You may not copy, reverse-engineer, distribute, or modify any portion of the App without our prior written consent.</p>
+
+    <h2>5. User Content</h2>
+    <p>You may upload photos of meals, input recipe details, and record voice transcripts ("User Content"). You retain ownership of your User Content. However, by uploading User Content, you grant us a worldwide, non-exclusive, royalty-free license to use, display, reproduce, and process the content solely for the purpose of delivering and improving our Services.</p>
+
+    <h2>6. Limitation of Liability</h2>
+    <p>To the maximum extent permitted by applicable law, CalMate, its founders, and affiliates shall not be liable for any direct, indirect, incidental, special, or consequential damages resulting from:</p>
+    <ul>
+        <li>Your use or inability to use the App.</li>
+        <li>Any nutritional information, recipes, or health suggestions provided by the App.</li>
+        <li>Allergic reactions or health issues resulting from any meal preparation or dietary suggestions.</li>
+        <li>Unauthorized access to or alteration of your data.</li>
+    </ul>
+
+    <h2>7. Termination</h2>
+    <p>We reserve the right to suspend or terminate your account and access to the Services at our sole discretion, without notice, for conduct that we believe violates these Terms or is harmful to other users or our business interests.</p>
+
+    <h2>8. Governing Law</h2>
+    <p>These Terms shall be governed by and construed in accordance with the laws of your jurisdiction, without regard to its conflict of law provisions.</p>
+
+    <h2>9. Contact Us</h2>
+    <p>If you have any questions or feedback regarding these Terms, please contact us at:</p>
+    <p>Email: <a href="mailto:support@calmate.app">support@calmate.app</a></p>
+
+    <div class="footer">
+        &copy; 2026 CalMate. All rights reserved.
+    </div>
+</div>
+
+</body>
+</html>
