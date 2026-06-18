@@ -6,6 +6,7 @@ You can read the documents directly in Markdown format:
 
 * 📄 **[Privacy Policy](privacy.md)**
 * 📄 **[Terms & Conditions](terms.md)**
+* 📄 **[Account Deletion Request](delete-account.md)**
 
 ---
 &copy; 2026 CalMate. All rights reserved.
