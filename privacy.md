@@ -77,7 +77,7 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 
 If you have questions or comments about this Privacy Policy, please contact us at:
 
-* **Email:** support@calmate.app
+* **Email:** wematelabs@gmail.com
 
 ---
 &copy; 2026 CalMate. All rights reserved.
