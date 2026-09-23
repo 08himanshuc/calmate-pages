@@ -1,87 +1,53 @@
 # Terms and Conditions
 
-**Last Updated:** June 18, 2026
+**Last Updated: September 23, 2026**
 
-Welcome to CalMate! These Terms and Conditions ("Terms") govern your access to and use of the CalMate mobile application (the "App") and any related services provided by us (collectively, the "Services").
+Welcome to CalMate. These Terms govern your access to and use of the CalMate Android application and related services (the "Services"). By using the Services, you agree to these Terms.
 
-By downloading, installing, accessing, or using the App, you agree to be bound by these Terms. If you do not agree to these Terms, do not use the Services.
+> **Health information:** CalMate provides general nutrition tracking, recipes, and meal-planning information. It is not a medical device and does not provide medical advice, diagnosis, or treatment. Consult a qualified healthcare professional about your health, dietary needs, allergies, or treatment.
 
-> **MEDICAL DISCLAIMER:** CalMate is an AI-powered nutrition tracker and recipe planner designed to provide general information and logging tools. CalMate is NOT a medical device, nor does it provide professional medical advice, diagnosis, or treatment. Always consult a qualified physician or registered dietitian before starting any new diet, fitness program, or nutritional plan.
+## 1. Accounts
 
----
-
-## 1. User Accounts & Registration
-
-To use certain features of the Services, you may be required to register for an account using email verification, Google, or Apple login options. You agree to:
-
-* Provide accurate and complete information during registration.
-* Maintain the security and confidentiality of your credentials.
-* Promptly notify us of any unauthorized use or security breaches concerning your account.
-
----
+You may use guest features or create an account using the sign-in methods offered in the App. You are responsible for providing accurate account information and protecting your credentials. You are responsible for activity performed through your account.
 
 ## 2. Subscriptions and Payments
 
-We offer premium subscription tiers that grant access to advanced features, such as unrestricted AI recipe generation and multi-day meal planners.
+Some features require a paid subscription. Android purchases are billed by Google Play and subscription status is coordinated through RevenueCat. Prices and billing periods are shown before purchase. Subscriptions may renew automatically according to the terms presented by Google Play. You can manage or cancel a subscription through Google Play account settings.
 
-* **In-App Purchases:** Billing is handled securely through the Apple App Store, Google Play Store, and synchronized via RevenueCat.
-* **Subscription Auto-Renewal:** Subscriptions automatically renew at the end of the billing period unless canceled at least 24 hours before the renewal date.
-* **Cancellations:** You can manage or cancel your subscription at any time directly through your Apple ID or Google Play Store account settings.
-* **Refunds:** All purchases are final. Refund requests are subject to the terms and refund policies of Apple and Google.
+Deleting your CalMate account does not cancel a Google Play subscription. Refunds and billing are subject to Google Play's policies.
 
----
+## 3. Artificial Intelligence and Nutrition Information
 
-## 3. Artificial Intelligence and Generated Content
+CalMate uses OpenRouter to send AI requests to Meta's `meta/muse-spark-1.3-contributor` model through our Cloudflare Worker. The model can process text and meal images to suggest recipes, meal plans, and nutrition estimates.
 
-CalMate uses advanced artificial intelligence (such as Google Gemini API) to suggest recipes, generate meal plans, and analyze meal photographs. You acknowledge and agree that:
+OpenRouter's listing for this Contributor model states that prompts and outputs may be used to improve Meta's products. Details are in our [Privacy Policy](https://github.com/08himanshuc/calmate-pages/blob/main/privacy.md). Do not submit information you do not want processed by these services.
 
-* AI-generated content may occasionally contain inaccuracies, incomplete data, or errors regarding nutritional values, ingredients, or allergens.
-* You are solely responsible for verifying the accuracy of ingredient details and allergen warnings before preparing or consuming any food item suggested by the App.
+AI-generated content and nutrition estimates may be inaccurate or incomplete. Verify food portions, ingredients, nutrition values, and allergens yourself. Do not rely on CalMate as a substitute for professional medical or dietary advice.
 
----
+## 4. User Content
 
-## 4. Intellectual Property & License
+You retain rights to content you submit to CalMate. You authorize us and our service providers to process that content as needed to provide the features you request, subject to the processing described in the Privacy Policy and the applicable providers' terms.
 
-We grant you a personal, limited, non-exclusive, non-transferable, and revocable license to download and use the App on your mobile device for personal, non-commercial purposes only.
+## 5. Acceptable Use
 
-All trademarks, logos, designs, graphics, and codebase related to the App are our exclusive property or the property of our licensors. You may not copy, reverse-engineer, distribute, or modify any portion of the App without our prior written consent.
+You agree not to misuse the Services, attempt unauthorized access, interfere with the Services, or use the Services in violation of applicable law.
 
----
+## 6. Intellectual Property
 
-## 5. User Content
+CalMate and its licensors retain their rights in the App, including its software, branding, and design. These Terms give you a limited, personal, non-transferable right to use the App for its intended purpose.
 
-You may upload photos of meals, input recipe details, and record voice transcripts ("User Content"). You retain ownership of your User Content. However, by uploading User Content, you grant us a worldwide, non-exclusive, royalty-free license to use, display, reproduce, and process the content solely for the purpose of delivering and improving our Services.
+## 7. Availability and Liability
 
----
+We may change or suspend features of the Services. To the extent permitted by law, CalMate is not responsible for losses arising from inaccurate AI-generated nutrition information, recipes, or health suggestions, or from your inability to use the Services. Nothing in these Terms limits liability where applicable law does not allow that limitation.
 
-## 6. Limitation of Liability
+## 8. Account Deletion and Termination
 
-To the maximum extent permitted by applicable law, CalMate, its founders, and affiliates shall not be liable for any direct, indirect, incidental, special, or consequential damages resulting from:
+You may delete your CalMate account through **Profile → Delete Account**. Account deletion does not cancel a Google Play subscription. We may suspend access for conduct that violates these Terms or harms the Services or other users.
 
-* Your use or inability to use the App.
-* Any nutritional information, recipes, or health suggestions provided by the App.
-* Allergic reactions or health issues resulting from any meal preparation or dietary suggestions.
-* Unauthorized access to or alteration of your data.
+## 9. Changes and Contact
 
----
+We may update these Terms as the Services change. Continued use after an update means you accept the revised Terms.
 
-## 7. Termination
+For questions about these Terms, contact **support@calmate.app**.
 
-We reserve the right to suspend or terminate your account and access to the Services at our sole discretion, without notice, for conduct that we believe violates these Terms or is harmful to other users or our business interests.
-
----
-
-## 8. Governing Law
-
-These Terms shall be governed by and construed in accordance with the laws of your jurisdiction, without regard to its conflict of law provisions.
-
----
-
-## 9. Contact Us
-
-If you have any questions or feedback regarding these Terms, please contact us at:
-
-* **Email:** support@calmate.app
-
----
-&copy; 2026 CalMate. All rights reserved.
+© 2026 CalMate. All rights reserved.
