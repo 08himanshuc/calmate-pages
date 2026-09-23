@@ -53,6 +53,6 @@ We may update this policy when our practices or services change. The date above 
 
 ## 7. Contact
 
-For questions about this policy or your information, contact **wemat elabs@gmail.com**.
+For questions about this policy or your information, contact **wematelabs@gmail.com**.
 
 © 2026 CalMate. All rights reserved.
